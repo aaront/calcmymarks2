@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Something Went Wrong{% endblock %}
+
+{% block js %}{% endblock %}
+
+{% block content %}
+
+<div class="question">
+	<div class="span-1"><h2>Error</h2></div>
+	<div class="span-5">
+		<p>Obviously something was wrong with your attempt. Try again. Make sure there are no empty fields, and make sure you only enter in numbers for the percentages.</p>
+	</div>
+</div>
+
+<div class="question">
+	<div class="buttons_row rounded span-7 last">
+		<p><a href="javascript:history.go(-1)" class="btn"><span><span>Try again?</span></span></a></p>
+	</div>
+</div>
+
+{% endblock %}
